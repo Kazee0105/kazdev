@@ -86,3 +86,30 @@ img {
     font-size: 18px;
     color: #E5E7EB; 
 }
+
+/* Mid Section */
+
+.midsection {
+    padding-top: 46px;
+    border: 1px dotted black;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.midsection .information h2{
+    font-size: 36px;
+}
+
+.midsection .illust {
+    padding-top: 50px;
+}
+
+.illust button {
+    background-color: white;
+    color: Black;
+    border: 2px solid blue;
+    padding: 40px 40px;
+    border-radius: 12px;
+}
