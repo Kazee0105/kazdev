@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:ital,wght@0,400;0,700;0,900;1,300&display=swap');
 
 *{
     margin: 0;
@@ -91,7 +91,7 @@ img {
 
 .midsection {
     padding-top: 46px;
-    border: 1px dotted black;
+    /* border: 1px dotted black; */
     height: 450px;
     display: flex;
     flex-direction: column;
@@ -134,6 +134,86 @@ img {
 /* Quote Section */
 
 .quote {
-    height: 450px;
-    border: 1px dotted black;
+    height: 430px;
+    /* border: 1px dotted black; */
+    background-color: #E5E7EB;
+}
+
+.quote .quotetext{
+    padding-top:130px;
+    padding-left: 575px;
+    padding-right: 540px;
+    padding-bottom: 0;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+
+}
+
+.quote .author {
+    padding-left: 1100px;
+}
+
+/* Footer Section */
+
+.footer {
+    height: 250px;
+    /* border: 1px dotted red; */
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.actionbox {
+    /* border: 3px solid blue; */
+    background-color: #3882F6;
+    height: 145px;
+    width: 1020px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.actionbox .actiontext {
+    padding-top: 50px;
+    padding-left: 120px;
+    font-size: 24px;
+    font-style: bold;
+    color: #f9FAf8;
+}
+
+.actionbox .actioncaption {
+    padding-left: 120px;
+    color: #f9FAf8;
+}
+
+.actionbox .actionbutton {
+    padding-right: 120px;
+    padding-top: 50px
+    
+}
+
+.actionbox .actionbutton .signup {
+    font-family: roboto, sans-serif;
+    border: 2px solid #f9FAf8;
+    margin-top: 10px;
+    padding: 8px 35px;
+    background-color: #3882F6;
+    color: #f9FAf8;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 9px;
+}
+
+/* Copyright */
+
+.copyright {
+    background-color: #1F2937;
+    height: 100px;
+    color: #f9FAf8;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
